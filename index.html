@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Inscripción Estudiantil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Sin espacios entre celdas */
+        }
+        th {
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff; /* Color azul */
+            color: white;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 5px solid white; /* Borde blanco grueso */
+        }
+        .celeste {
+            background-color: #b3e0ff; /* Celeste claro */
+        }
+        .verde {
+            background-color: #c8e6c9; /* Verde claro */
+        }
+        .verde-oscuro {
+            background-color: #81c784; /* Verde más oscuro */
+        }
+        .mostaza {
+            background-color: #e6c200; /* Amarillo mostaza */
+        }
+        .azul {
+            background-color: #4682b4; /* Azul oscuro y opaco */
+        }
+        .naranja {
+            background-color: #ffcc80; /* Naranja */
+        }
+        .rojo {
+            background-color: #ff5252; /* Rojo */
+        }
+    </style>
+</head>
+<body>
+
+<h1>HORARIO INSCRIPCIÓN ESTUDIANTIL</h1>
+<button onclick="document.getElementById('horario').style.display='none'">Ocultar Horario</button>
+
+<table id="horario">
+    <tr>
+        <th>HORAS</th>
+        <th>LUNES</th>
+        <th>MARTES</th>
+        <th>MIERCOLES</th>
+        <th>JUEVES</th>
+        <th>VIERNES</th>
+        <th>SÁBADO</th>
+    </tr>
+    <tr>
+        <td>08:00-08:59</td>
+        <td class="celeste">INF-111<br>Par.B</td>
+        <td></td>
+        <td class="celeste">INF-111<br>Par.B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>09:00-09:30</td>
+        <td class="celeste">INF-111<br>Par.B</td>
+        <td></td>
+        <td class="celeste">INF-111<br>Par.B</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10:00-10:59</td>
+        <td class="verde">INF-112<br>Par.A</td>
+        <td class="azul">INF-116<br>Par.J</td>
+        <td class="verde">INF-112<br>Par.A</td>
+        <td class="azul">INF-116<br>Par.J</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11:00-11:59</td>
+        <td class="verde">INF-112<br>Par.A</td>
+        <td class="azul">INF-116<br>Par.J</td>
+        <td class="verde">INF-112<br>Par.A</td>
+        <td class="azul">INF-116<br>Par.J</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>12:00-12:59</td>
+        <td></td>
+        <td class="naranja">INF-115<br>Par.C</td>
+        <td></td>
+        <td class="naranja">INF-115<br>Par.C</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>13:00-13:59</td>
+        <td></td>
+        <td class="naranja">INF-115<br>Par.C</td>
+        <td></td>
+        <td class="naranja">INF-115<br>Par.C</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>14:00-14:59</td>
+        <td class="mostaza">INF-121<br>Par.B</td>
+        <td class="rojo">INF-122<br>Par.A</td>
+        <td class="mostaza">INF-121<br>Par.B</td>
+        <td class="rojo">INF-122<br>Par.A</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>15:00-15:59</td>
+        <td class="mostaza">INF-121<br>Par.B</td>
+        <td class="rojo">INF-122<br>Par.A</td>
+        <td class="mostaza">INF-121<br>Par.B</td>
+        <td class="rojo">INF-122<br>Par.A</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>16:00-16:59</td>
+        <td class="verde-oscuro">INF-114<br>Par.E</td>
+        <td></td>
+        <td class="verde-oscuro">INF-114<br>Par.E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>17:00-17:59</td>
+        <td class="verde-oscuro">INF-114<br>Par.E</td>
+        <td></td>
+        <td class="verde-oscuro">INF-114<br>Par.E</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>18:00-18:59</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+</body>
+</html>
